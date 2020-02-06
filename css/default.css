@@ -57,7 +57,7 @@ svg:hover {
 
 .button {
   background-color: var(--col-accent-2);
-  border: none;
+  /* border: solid; */
   color: var(--col-on-accent-2);
   padding: 0.5em 2em;
   text-align: center;
@@ -65,6 +65,7 @@ svg:hover {
   display: inline-block;
   font-size: 1em;
   font-style: bold;
+  border-radius: 0.5em; 
   
 
 }
