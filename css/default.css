@@ -1,21 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:400,700|Ubuntu+Condensed&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:400,700|Ubuntu+Condensed&display=swap");
 
 :root {
   --col-bg: #ccc;
   --col-on-bg: #333;
   --col-accent-1: #95ba5e;
   --col-on-accent-1: #eee;
-  --col-accent-2: #FB9954;
+  --col-accent-2: #fb9954;
   --col-on-accent-2: #333;
-  --col-accent-3: #e8f0db ;
+  --col-accent-3: #e8f0db;
   --col-on-accent-3: #444;
-  --font-family-1: 'Ubuntu Condensed', 'Arial', sans-serif;
-  --font-family-2: 'Barlow Condensed', 'Arial', sans-serif;
+  --font-family-1: "Ubuntu Condensed", "Arial", sans-serif;
+  --font-family-2: "Barlow Condensed", "Arial", sans-serif;
   --font-size: 1em;
   --font-bigger: 1.5em;
-  
 }
-
 
 body {
   padding: 0em;
@@ -26,7 +24,15 @@ body {
   /* margin: 1em; */
 }
 
-h1, h2, h3, h4, h5, h6, ul, ol, li {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li {
   font-family: var(--font-family-1);
   font-weight: normal;
 }
@@ -37,7 +43,6 @@ article {
   /* margin-top: 1em; */
   margin-bottom: 1em;
 }
-
 
 .search-bar {
   background-color: var(--col-accent-1);
@@ -55,9 +60,9 @@ article {
 }
 
 .logo {
-  width: 7.5em; 
-  margin: 0.5em;
- }
+  width: 7.5em;
+  margin: 0.25em 0.5em 0.5em 0.5em
+}
 
 .flex-container {
   display: flex;
@@ -69,19 +74,19 @@ article {
   /* height: 5em; */
   vertical-align: baseline;
   /* align-items: center; */
-  margin:0 auto;  
+  margin: 0 auto;
   /* margin-right: 0.5em; */
   background-color: var(--col-on-accent-1);
 }
 
-  .flex-img  {
-    width: 100%;
-    max-width: 100% ;
-    /* margin: 0.25em; */
-    border: 0.25em;
-    padding: 0.25em;
-    /* border: solid; */
-    }
+.flex-img {
+  width: 100%;
+  max-width: 100%;
+  /* margin: 0.25em; */
+  border: 0.25em;
+  padding: 0.25em;
+  /* border: solid; */
+}
 
 .flex-item {
   flex-grow: 1;
@@ -115,16 +120,17 @@ article {
 .flex-box-item {
   flex-grow: 1;
   margin: 0.25em;
-  
 }
 .border-left-corner {
   border-bottom-left-radius: 1.5em;
   background-color: var(--col-accent-1);
   border: none;
   margin-right: 0;
+  background-color: var(--col-bg);
 }
 
-[type="text"], button{
+[type="text"],
+button {
   min-height: 1em;
   max-width: 20em;
   margin-bottom: 0.25em;
@@ -133,4 +139,3 @@ article {
 div.flex-container {
   background-color: white;
 }
-
