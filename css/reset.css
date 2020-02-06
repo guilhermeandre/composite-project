@@ -17,8 +17,12 @@ body {
 }
 img {
 	max-width: 100%;
-	vertical-align: bottom;
-}
+	width: auto;
+	object-fit: cover;
+	padding: 0;
+	display: block;
+	}
+
 ul, ol {
 	list-style: none;
 	padding-left: 0;

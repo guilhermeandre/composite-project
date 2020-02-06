@@ -1,8 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:400,700|Ubuntu+Condensed&display=swap');
+
+:root {
+  --col-bg: #ccc;
+  --col-on-bg: #333;
+  --col-accent-1: #8FBF41;
+  --col-on-accent-1: #222;
+  --col-accent-2: #FB9954;
+  --col-on-accent-2: #333;
+  --col-accent-3: #666738 ;
+  --col-on-accent-3: #444;
+  --font-family-1: 'Ubuntu Condensed', 'Arial', sans-serif;
+  --font-family-2: 'Barlow Condensed', 'Arial', sans-serif;
+  --font-size: 1em;
+  --font-bigger: 1.5em;
+}
+
+
 body {
   padding: 0 0 0 0em;
   font-size: 1em;
   line-height: 1.25em;
+  background-color: lightgrey;
+  font-family: var(--font-family-2);
 }
+
+h1, h2, h3, h4, h5, h6, ul, ol, li {
+  font-family: var(--font-family-1);
+}
+
+.logo {
+  width: 7.5em; 
+ }
 
 .flex-container {
   display: flex;
@@ -14,8 +42,23 @@ body {
   vertical-align: baseline;
   align-items: center;
   margin-bottom: 0.5em;
-  margin-left: 0.5em;
-  
+  margin-left: 0.5em;  
+  /* margin-right: 0.5em; */
+}
+
+.flex-img {
+ padding: 0.50em;
+ display: flex;
+ margin-left: 0;
+ max-width: 295px;
+ width: auto;
+ align-items: center;
+ 
+}
+ 
+.flex-item {
+  flex-grow: 1;
+  margin: 1em;
 }
 
 .flex-ul {
@@ -34,17 +77,22 @@ body {
   margin: 0;
 }
 
+.flex-box-container {
+  display: flex;
+  flex-direction: column;
+  /* background-color: var(--col-accent-c); */
+  /* border-style: solid; */
+  border: solid;
+}
+.flex-box-item {
+  flex-grow: 1;
+  margin: 0.25em;
+  
+}
 .border-left-corner {
   border-bottom-left-radius: 1.5em;
-  background-color: lightgray;
+  background-color: var(--col-accent-1);
   border: none;
+  margin-right: 0;
 }
 
-.flex-item {
-  flex-grow: 1;
-  margin: 1em;
-}
-
-.logo {
- width: 7.5em; 
-}
