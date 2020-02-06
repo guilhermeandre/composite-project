@@ -6,7 +6,7 @@
   --col-accent-1: #95ba5e   ;
   --col-on-accent-1: #eee;
   --col-accent-2: #fb9954;
-  --col-on-accent-2: #333;
+  --col-on-accent-2: #eee;
   --col-accent-3: #e8f0db;
   --col-on-accent-3: #444;
   --font-family-1: "Ubuntu Condensed", "Arial", sans-serif;
@@ -44,6 +44,18 @@ article {
   padding: 0.05em;
   /* margin-top: 1em; */
   margin-bottom: 1em;
+}
+
+.button {
+  background-color: var(--col-accent-2);
+  border: none;
+  color: var(--col-on-accent-2);
+  padding: 0.5em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  font-size: 1.2em;
 }
 
 .search-bar {
