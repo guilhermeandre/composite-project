@@ -13,6 +13,7 @@
   --font-family-2: 'Barlow Condensed', 'Arial', sans-serif;
   --font-size: 1em;
   --font-bigger: 1.5em;
+  
 }
 
 
@@ -22,14 +23,37 @@ body {
   line-height: 1.25em;
   background-color: lightgrey;
   font-family: var(--font-family-2);
+  /* margin: 1em; */
 }
 
 h1, h2, h3, h4, h5, h6, ul, ol, li {
   font-family: var(--font-family-1);
 }
 
+article {
+  background-color: var(--col-accent-3);
+  padding: 0.05em;
+  /* margin-top: 1em; */
+  margin-bottom: 1em;
+}
+
+.search-bar {
+  background-color: var(--col-accent-1);
+  padding: 1em;
+  border-radius: 1em;
+  box-sizing: border-box;
+  margin: 1em;
+}
+
+.flex-search {
+  display: flex;
+  flex-direction: column;
+  /* background-color: white ; */
+}
+
 .logo {
   width: 7.5em; 
+  margin: 0.5em;
  }
 
 .flex-container {
@@ -37,16 +61,16 @@ h1, h2, h3, h4, h5, h6, ul, ol, li {
   flex-direction: row;
   border-style: none;
   border-color: magenta;
+  border-style: solid;
   justify-content: space-between;
   /* height: 5em; */
   vertical-align: baseline;
   align-items: center;
-  margin-bottom: 0.5em;
-  margin-left: 0.5em;  
+  margin:0 auto;  
   /* margin-right: 0.5em; */
 }
 
-.flex-img {
+/* .flex-img {
  padding: 0.50em;
  display: flex;
  margin-left: 0;
@@ -55,7 +79,17 @@ h1, h2, h3, h4, h5, h6, ul, ol, li {
  align-items: center;
  
 }
- 
+  */
+
+  .flex-img  {
+    size: 100%;
+    max-width: 100% ;
+    /* margin: 0.25em; */
+    border: 0.25em;
+    padding: 0.25em;
+    border: solid;
+    }
+
 .flex-item {
   flex-grow: 1;
   margin: 1em;
@@ -66,7 +100,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, li {
   display: flex;
   width: 10em;
   justify-content: space-evenly;
-  margin: 0;
+  margin-bottom: 0.5em;
 }
 
 .flex-nav-menu {
