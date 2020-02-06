@@ -82,7 +82,7 @@ article {
   */
 
   .flex-img  {
-    size: 100%;
+    width: 100%;
     max-width: 100% ;
     /* margin: 0.25em; */
     border: 0.25em;
