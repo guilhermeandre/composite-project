@@ -154,8 +154,14 @@ div.flex-container {
   background-color: white;
 }
 
-@media screen and (min-width:40em) {
+@media screen and (min-width:30em) {
     .grid-container {
       grid-template-columns: 1fr 1fr 1fr;
     }
+}
+
+@media screen and (min-width:50em) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
