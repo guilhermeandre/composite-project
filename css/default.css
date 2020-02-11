@@ -19,6 +19,7 @@
   --gdr-bg-active: linear-gradient(180deg, rgba(35,115,60,0.9416141456582633) 0%, rgba(149,186,94,1) 100%);
   --gdr-bg2-old: rgb(110,191,241);
   --gdr-bg2-active: linear-gradient(90deg, rgba(110,191,241,1) 0%, rgba(126,221,157,1) 100%);
+  --max-width : 60em;
 }
 
 body {
@@ -28,6 +29,12 @@ body {
   /* background-color: lightgrey; */
   font-family: var(--font-family-2);
   /* margin: 1em; */
+}
+
+.auto-margin {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--max-width);
 }
 
 h1,h2,h3,h4,h5,h6,ul,ol,li {
@@ -40,10 +47,16 @@ article {
   padding: 0.05em;
   /* margin-top: 1em; */
   margin-bottom: 1em;
+  overflow: hidden;
+  
 }
 
 svg:hover {
   fill:var(--col-bg);}
+
+.item:nth-child(2n) {  /*alternates items*/
+  color: aqua;
+}
 
 
 .button {
@@ -65,7 +78,8 @@ svg:hover {
   padding: 1em; 
   /* border-radius: 1em; */
   box-sizing: border-box;
-  margin: 0.2em 0em 0.2em 0;
+  margin: 0.2em auto;
+  transition: ease-in-out 1s;
 }
 
 .flex-search {
@@ -73,12 +87,17 @@ svg:hover {
   flex-direction: column;
   color: var(--col-on-accent-1); 
   /* background-color: white ; */
+  align-content: center;
 }
 
 .logo {
   width: 7.5em;
   margin: 0.25em 0.5em 0.5em 0.5em;
   clear: left;
+}
+
+.item:first-child {
+  margin-top: 0;
 }
 
 .grid-container {
@@ -88,6 +107,7 @@ svg:hover {
   vertical-align: baseline;
   margin: 0 auto;
   background-color: var(--col-on-accent-1);
+  grid-gap: 1rem;
 }
 
 .flex-header-container {
@@ -148,20 +168,33 @@ button {
   margin-bottom: 0.25em;
   background-color: rgba(255,255,255,0.2);
   color: var(--col-on-accent-1) ;
+  align-content: center;
 }
 
 div.flex-container {
   background-color: white;
 }
 
-@media screen and (min-width:30em) {
+@media screen and (min-width:40em) {
     .grid-container {
       grid-template-columns: 1fr 1fr 1fr;
     }
+    .search-bar {
+      max-width: 45em;
+      align-items: center;
+      transition: ease-in-out 1s;
+    }
 }
 
-@media screen and (min-width:50em) {
+@media screen and (min-width:80em) {
   .grid-container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .search-bar {
+    max-width: 75em;
+    align-content: center;
+    border-radius: 1em;
+    transition: ease-in 1s;
   }
 }
