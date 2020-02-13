@@ -110,7 +110,7 @@ article {
   vertical-align: baseline;
   margin: 0 auto;
   background-color: var(--col-on-accent-1);
-  grid-gap: 1rem;
+  grid-gap: 0rem;
 }
 
 .deals.grid-container {
@@ -118,7 +118,8 @@ article {
 }
 
 .boxes.grid-container {
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+  
 }
 
 .flex-header-container {
@@ -169,6 +170,7 @@ article {
 .grid-item {
   background-color: var(--col-accent-1);
   /* margin: 0.25em; */
+  /* width: 128px; */
 }
 
 .box.grid-item {
@@ -193,15 +195,15 @@ article {
 .box-footer {
   background-color: var(--col-accent-1);
   text-align: center;
+  color: var(--col-on-accent-1);
 }
 
 .price {
   text-align: right;
   font-weight: bold;
   margin-top: 0.625em;
+  
 }
-
-
 
 [type="text"], [type="date"], [type="number"],
 button {
@@ -231,6 +233,12 @@ div.flex-container {
 
 @media screen and (min-width:80em) {
   .grid-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-gap: 1em; 
+    
+  }
+
+  .boxes.grid-container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
