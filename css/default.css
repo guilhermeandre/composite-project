@@ -51,9 +51,6 @@ article {
   
 }
 
-svg:hover {
-  fill:var(--col-bg);}
-
 .item:nth-child(2n) {  /*alternates items*/
   color: aqua;
 }
@@ -120,6 +117,10 @@ svg:hover {
   grid-template-columns: 1fr 1fr ;
 }
 
+.boxes.grid-container {
+  grid-template-columns: 1fr;
+}
+
 .flex-header-container {
   /* background: var(--gdr-bg2-old);
   background: var(--gdr-bg2-active); */
@@ -167,7 +168,16 @@ svg:hover {
 
 .grid-item {
   background-color: var(--col-accent-1);
-  margin: 0.25em;
+  /* margin: 0.25em; */
+}
+
+.box.grid-item {
+  /* padding: 0.625em; */
+  font-size: 1.25em;
+  background-color: white;
+  border: solid;
+  margin: 0.625em;
+  
 }
 .border-left-corner {
   border-bottom-left-radius: 1.5em;
@@ -175,6 +185,23 @@ svg:hover {
   border: none;
   margin-right: 0;
 }
+
+.box-header {
+  margin-top: 0.625em;
+}
+
+.box-footer {
+  background-color: var(--col-accent-1);
+  text-align: center;
+}
+
+.price {
+  text-align: right;
+  font-weight: bold;
+  margin-top: 0.625em;
+}
+
+
 
 [type="text"], [type="date"], [type="number"],
 button {
