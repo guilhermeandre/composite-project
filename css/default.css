@@ -100,6 +100,12 @@ svg:hover {
   margin-top: 0;
 }
 
+.svg {
+  max-width: 1.80em;
+  fill: #95ba5e;
+  box-shadow: #eee;
+  }
+
 .grid-container {
   display: grid;
   grid-template-columns: auto;
@@ -130,7 +136,7 @@ svg:hover {
 
 .flex-item {
   flex-grow: 1;
-  margin: 1em;
+  margin: 1em 1em 1em 1em;
 }
 
 .flex-ul {
@@ -144,9 +150,15 @@ svg:hover {
 .flex-nav-menu {
   /* border: solid lightseagreen; */
   display: flex;
-  /* width: 10em; */
-  justify-content: space-evenly;
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  position: relative;
+  color: white;
+  
 }
 
 .grid-item {
