@@ -101,6 +101,8 @@ article {
   max-width: 1.70em;
   fill: #95ba5e;
   box-shadow: #eee;
+  display: block;
+  margin: auto;
   }
 
 .grid-container {
@@ -238,8 +240,13 @@ div.flex-container {
     grid-template-columns: 1fr 1fr 1fr 1fr; 
     grid-gap: 1em; 
     
+    
   }
-
+.flex-nav-menu {
+  color: var(--col-on-bg);
+  text-align: center;
+}
+   
   .boxes.grid-container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
@@ -249,5 +256,10 @@ div.flex-container {
     align-content: center;
     border-radius: 1em;
     transition: ease-in 1s;
+    text-align: center;
+   
+  }
+  .flex-search {
+        display: inline-block;
   }
 }
