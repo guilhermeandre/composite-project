@@ -116,6 +116,10 @@ svg:hover {
   grid-gap: 1rem;
 }
 
+.deals.grid-container {
+  grid-template-columns: 1fr 1fr ;
+}
+
 .flex-header-container {
   /* background: var(--gdr-bg2-old);
   background: var(--gdr-bg2-active); */
