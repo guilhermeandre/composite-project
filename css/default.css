@@ -225,12 +225,14 @@ article {
 .flex-search.rooms {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
   grid-gap: 0rem;
+  height: auto;
 }
 
 .lb-ckin {
-  grid-area: 1 / 1 / 2 / 2
+  grid-area: 1 / 1 / 2 / 2;
+  /*  */
 }
 
 .in-ckin {
