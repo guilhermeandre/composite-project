@@ -53,9 +53,10 @@ li {
   
 }
 
-h2 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+section
+h2{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 article {
@@ -197,6 +198,7 @@ article {
   border-bottom-right-radius: 0.5em;
   background-color: var(--col-transparency);
   margin-right: 0;
+  margin-left: auto;
 }
 
 .box-header {
@@ -232,12 +234,27 @@ div.flex-container {
   background-color: white;
 }
 
-.page_footer {
-    display: block;
-    height: 5em;
+.page-footer {
+    /* height: 5.5em; */
     background-color: var(--col-accent-3);
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-evenly;
     
+}
+.links-footer { 
+ max-width: 2em;
+}
+
+.flex-nav-menu.footer {
+    width: 300px;
+    padding: 0.25em;
+}
+
+.flex-nav-menu.footer.icons {
+  width: 200px;
+  padding: 1em;
 }
 
 @media screen and (min-width: 80em) {
@@ -282,11 +299,11 @@ div.flex-container {
   }
 
   .border-left-corner {
-    border: solid lightblue;
+    /* border: solid lightblue; */
     margin-right: 0;
-    width: 45em;
+    /* width: 45em; */
     height: 75%;
-    align-content: center;
+    /* align-content: center; */
   }
 
   .logo {
@@ -294,7 +311,7 @@ div.flex-container {
     margin-top: 0.5rem;
   }
 
-  h2 {
+  h2{
     text-align: left;
   }
 
@@ -302,6 +319,13 @@ div.flex-container {
     margin-left: auto;
     margin-right: auto;
     
+  }
+  
+  
+
+  .flex-header-container {
+    margin-left: auto;
+    margin-right: auto;
   }
  
 }
