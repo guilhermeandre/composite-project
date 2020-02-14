@@ -46,14 +46,7 @@ body {
   max-width: var(--max-width);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-ol,
+h1,h2,h3,h4,h5,h6,ul,ol,
 li {
   font-family: var(--font-family-1);
   font-weight: normal;
@@ -155,14 +148,17 @@ article {
 }
 
 .flex-item {
-    margin: 1em 1em 1em 1em;  
+   margin-right: auto;
+   margin-left: auto; 
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .flex-ul {
   /* border: solid lightseagreen;  */
   display: flex;
   width: 10em;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-bottom: 0.5em;  
 }
 
@@ -265,7 +261,6 @@ div.flex-container {
   }
 
   .flex-item {
-    /* flex-grow: 1; */
     margin: 1em 1em 1em 1em;
     max-width: 1.25em
   }
@@ -274,6 +269,7 @@ div.flex-container {
     border: solid lightblue;
     margin-right: 0;
     width: 45em;
+    height: 75%;
     align-content: center;
   }
 
@@ -281,6 +277,7 @@ div.flex-container {
     margin-left: 1rem;
     margin-top: 0.5rem;
   }
+
   h2 {
     text-align: left;
   }
