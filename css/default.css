@@ -162,12 +162,12 @@ article {
   margin-right: auto;
   margin-bottom: 0;
   padding-bottom: 0;
-  /* flex-wrap: wrap; */
   flex-direction: row;
   position: relative;
   color: white;
   vertical-align: middle;
   align-content: center;
+  border-style: solid;
   
 }
 
