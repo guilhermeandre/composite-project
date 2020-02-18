@@ -53,6 +53,7 @@ section
 h2{
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+  margin-left: 0.5em;
 }
 
 article {
@@ -178,7 +179,6 @@ article {
   color: white;
   
 }
-
 
 .grid-item {
   background-color: var(--col-accent-1);
@@ -351,8 +351,16 @@ div.flex-container {
 
   .svg {
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto;    
+  }
+
+  .flex-item:hover .svg {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(300deg) brightness(101%) contrast(105%);
+  }
+
+  .flex-item:hover .menu-name{
+    color: white;
+  
   }
 
   .flex-ul {
@@ -394,16 +402,22 @@ div.flex-container {
     opacity: 1;
   }
 
+  
+
   .flex-nav-menu .flex-item {
     min-width: 5em; 
     padding: 0.625em;
     transition: background-color 0.3s;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 0.9em;
+
   }
  
   .flex-nav-menu .flex-item:hover {
     background-color: pink;
+    border-radius: 0.9em;
+    color: white;
   }
   
 

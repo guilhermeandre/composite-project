@@ -10,7 +10,7 @@ html {
 *, *::before, *::after {
 	box-sizing: inherit;
 	font-family: inherit;
-	font-size: inherit;
+	font-size: inherit; 
 }
 body {
 	margin: 0;
@@ -60,3 +60,8 @@ input, textarea, button {
 }
 strong { font-weight: bold; }
 em { font-style: italic; }
+
+a {
+	text-decoration: none;
+	color: #333;
+}
