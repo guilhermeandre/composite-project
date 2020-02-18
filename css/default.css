@@ -100,7 +100,7 @@ article {
   color: var(--col-on-accent-1);
   /* background-color: white ; */
   align-content: center;
-  /* width: 20em;  */
+  width: 100%;
   padding: 0;
 }
 
@@ -415,10 +415,19 @@ div.flex-container {
   }
  
   .flex-nav-menu .flex-item:hover {
-    background-color: pink;
+    background-color: var(--col-accent-1);
     border-radius: 0.9em;
     color: white;
   }
   
 
+}
+
+.field {
+  flex-grow: 1;
+  background-image: url('');
+  background-size: 1em;
+  background-repeat: no-repeat;
+  background-position: 0.5em center;
+  padding-left: 2em;
 }
