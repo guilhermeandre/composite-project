@@ -286,6 +286,8 @@ div.flex-container {
 }
 
 @media screen and (min-width: 80em) {
+
+
   .grid-container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 1em;
@@ -307,9 +309,34 @@ div.flex-container {
     transition: ease-in 1s;
     text-align: center;
   }
-  .flex-search {
-    display: inline-block;
+  .flex-search {   
+    display:inline-block;
     width: auto;
+    margin-left: 1rem;
+  }
+
+  .flex-search.date {
+    display: inline-block;
+    flex-direction: row;
+  }
+  
+  .flex-search.rooms {
+    display: inline-block;
+    flex-direction: row;
+    
+  }
+  
+  .lb-ckin {
+    grid-area: auto;
+    /*  */
+  }
+  
+  .in-ckin {
+    grid-area: auto;
+  }
+  
+  .btn-grid {
+    grid-area: auto;
   }
 
   .svg {
@@ -332,6 +359,7 @@ div.flex-container {
     margin-right: 0;
     /* width: 45em; */
     height: 75%;
+    width: 30em;  
     /* align-content: center; */
   }
 
