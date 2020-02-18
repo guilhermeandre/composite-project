@@ -89,6 +89,7 @@ article {
   box-sizing: border-box;
   margin: 0.2em auto;
   transition: ease-in-out 1s;
+  font-size: var(--font-size);
 }
 
 
@@ -181,6 +182,8 @@ article {
 
 .grid-item {
   background-color: var(--col-accent-1);
+  margin-left: 0.25rem;
+  font-size: var(--font-size);
   /* margin: 0.25em; */
   /* width: 128px; */
 }
@@ -189,8 +192,9 @@ article {
   /* padding: 0.625em; */
   font-size: 1.25em;
   background-color: white;
-  border: solid;
+  /* border: solid; */
   margin: 0.625em;
+  padding: 0.125em;
 }
 .border-left-corner {
   border-bottom-left-radius: 0.5em;
@@ -285,6 +289,12 @@ div.flex-container {
   padding: 1em;
 }
 
+.menu-name {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+
 @media screen and (min-width: 80em) {
 
 
@@ -340,7 +350,8 @@ div.flex-container {
   }
 
   .svg {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     
   }
 
@@ -350,8 +361,11 @@ div.flex-container {
   }
 
   .flex-item {
-    margin: 1em 1em 1em 1em;
-    max-width: 1.25em
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    text-align: center;
   }
 
   .border-left-corner {
@@ -372,14 +386,25 @@ div.flex-container {
     text-align: left;
   }
 
-  .auto-margin {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .flex-header-container {
     margin-left: auto;
     margin-right: auto;
   }
+  .menu-name {
+    opacity: 1;
+  }
+
+  .flex-nav-menu .flex-item {
+    min-width: 5em; 
+    padding: 0.625em;
+    transition: background-color 0.3s;
+    margin-left: auto;
+    margin-right: auto;
+  }
  
+  .flex-nav-menu .flex-item:hover {
+    background-color: pink;
+  }
+  
+
 }
