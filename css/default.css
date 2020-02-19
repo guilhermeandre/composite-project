@@ -261,6 +261,8 @@ button {
   color: var(--col-on-accent-1);
   align-content: center;
   padding: 0.11em;
+  /* color: transparent;  */
+}
 }
 
 div.flex-container {
@@ -300,12 +302,38 @@ div.flex-container {
 }
 
 .pin-map-icon {
-  flex-grow: 1;
+  /* flex-grow: 1; */
   background-image: url('../icons/pin.svg');
-  background-size: 0.9em;
+  background-size: 1em;
   background-repeat: no-repeat;
   background-position: 0.5em center;
   padding-left: 2em;
+}
+
+.calendar-icon {
+  /* flex-grow: 1; */
+  background-image: url('../icons/calendar.svg');
+  background-size: 1em;
+  background-repeat: no-repeat;
+  background-position: 0.5em center;
+  padding-left: 2em;
+}
+
+.bed-icon {
+  /* flex-grow: 1; */
+  background-image: url('../icons/bed.svg');
+  background-size: 1em;
+  background-repeat: no-repeat;
+  background-position: 0.5em center;
+  padding-left: 2em;
+}
+
+
+
+.rounded-borders {
+  border-radius: 0.5em;
+  background-color: white;
+  /* border-top-left-radius: 0.5em; */
 }
 
 @media screen and (min-width: 40em) {    /* media-query 40em*/
