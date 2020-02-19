@@ -93,7 +93,7 @@ article {
   background: var(--gdr-bg-old);
   background: var(--gdr-bg-active);
   padding: 1em;
-  width: 18em;
+  width: 20em;
   box-sizing: border-box;
   margin: 0.2em auto;
   transition: ease-in-out 1s;
