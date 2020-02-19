@@ -71,10 +71,6 @@ article {
   overflow: hidden;
 }
 
-.item:nth-child(2n) {
-  /*alternates items*/
-  color: aqua;
-}
 
 .button {
   background-color: var(--col-accent-2);
@@ -145,6 +141,11 @@ article {
   display: block;
 }
 
+.svg-top {
+  max-width: 1.2em;
+  display: block;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto;
@@ -187,15 +188,9 @@ article {
   margin-left: auto; 
   margin-top: 1em;
   margin-bottom: 1em;
+  
 }
 
-.flex-ul {
-  /* border: solid lightseagreen;  */
-  display: flex;
-  width: 10em;
-  justify-content: space-between;
-  margin-bottom: 0.5em;  
-}
 
 .flex-nav-menu {
   display: flex;
@@ -205,6 +200,12 @@ article {
   justify-content: space-between;  
   color: white;
   
+}
+
+.background-round-menu {
+  background-color: var(--col-transparency);
+  border-bottom-left-radius: 1em;
+  height: 3em;
 }
 
 .grid-item {
@@ -222,13 +223,6 @@ article {
   padding: 0.125em;
   max-width: 15em;
   box-shadow: 2px 5px 15px -5px rgba(0,0,0,0.51);
-}
-.border-left-corner {
-  border-bottom-left-radius: 0.5em;
-  border-bottom-right-radius: 0.5em;
-  background-color: var(--col-transparency);
-  margin-right: 0;
-  margin-left: auto;
 }
 
 .box-header {
@@ -291,6 +285,11 @@ div.flex-container {
 .menu-name {
   opacity: 1;
   transition: opacity 0.3s;
+}
+
+.menu-name-top {
+  opacity: 0;
+  /* transition: opacity 0.3s; */
 }
 
 .grid-item.box:nth-child(n+3){
@@ -360,9 +359,17 @@ div.flex-container {
 .flex-nav-menu {
   color: var(--col-on-bg);
   text-align: center;
-  max-width: 40em;
+  min-width: 25em;
 }
 
+.background-round-menu {
+  height: 6em;
+}
+
+.menu-name-top {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
 
 .flex-nav-menu .flex-item {
   min-width: 5em; 
@@ -397,6 +404,12 @@ div.flex-container {
 .flex-ul {
   justify-content: space-evenly;
   margin-bottom: 0.5em;
+  margin-right: 0;
+  width: auto;
+  min-width: 20em;
+  height: 75%;
+  padding-left: 5em;
+  padding-left: 5em; 
 }
 
 .flex-item {
@@ -407,14 +420,6 @@ div.flex-container {
   text-align: center;
 }
 
-.border-left-corner {
-  /* border: solid lightblue; */
-  margin-right: 0;
-  /* width: 45em; */
-  height: 75%;
-  width: 30em;  
-  /* align-content: center; */
-}
 
 .logo {
   margin-left: 1rem;
