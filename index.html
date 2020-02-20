@@ -20,20 +20,19 @@
         </div>
         <nav>
           <ul class="flex-nav-menu background-round-menu">
-            <li class="flex-item"><a class="clickable" href="#"><img src="icons/support.svg" alt="Contact icon" class="svg-top auto-margin" /><span class="menu-name-top">Support</span></a></li>           
-            <li class="flex-item"><a class="clickable" href="#"><img src="icons/user.svg" alt="Login icon" class="svg-top auto-margin"/>
-            <span class="menu-name-top">Login</span></a></li>
-            <li class="flex-item"><a class="clickable" href="#"><img src="icons/suitcase.svg" alt="My Trips icon" class="svg-top auto-margin"/><span class="menu-name-top">My Trips</span></a></li>
+            <li class="flex-item"><a href="#"><img src="icons/support.svg" alt="Contact icon" class="svg-top auto-margin" title="Support" /><span class="menu-name-top">Support</span></a></li>           
+            <li class="flex-item"><a href="#"><img src="icons/user.svg" alt="Login icon" class="svg-top auto-margin" title="Login"/><span class="menu-name-top">Login</span></a></li>
+            <li class="flex-item"><a href="#"><img src="icons/suitcase.svg" alt="My Trips icon" class="svg-top auto-margin" title="My Trips"/><span class="menu-name-top">My Trips</span></a></li>
           </ul>
         </nav>
       </div>
       <nav>
         <ul class="flex-nav-menu">
-          <li class="flex-item"><a class="clickable" href="#"><img src="icons/hotel.svg" alt="Hotels" class="svg auto-margin" title="Hotels" /><span class="menu-name">Hotels</span></a></li>
-          <li class="flex-item"><a class="clickable" href="#"><img src="icons/airplane.svg" alt="Flights" class="svg auto-margin" title="Flights" /><span class="menu-name">Flights</span></a></li>
-          <li class="flex-item"><a class="clickable" href="#"><img src="icons/car.svg" alt="Cars" class="svg auto-margin" title="Cars"/><span class="menu-name">Cars</span></a></li>
-          <li class="flex-item"><a class="clickable" href="#"><img src="icons/deals.svg" alt="Deals" class="svg auto-margin" title="Deals" /><span class="menu-name">Deals</span></a></li>
-          <li class="flex-item"><a class="clickable" href="#"><img src="icons/vacation.svg" alt="Vacations" class="svg auto-margin" title="Vacations"/><span class="menu-name">Vacations</span></a></li>
+          <li class="flex-item"><a href="#"><img src="icons/hotel.svg" alt="Hotels" class="svg auto-margin" title="Hotels" /><span class="menu-name">Hotels</span></a></li>
+          <li class="flex-item"><a href="#"><img src="icons/airplane.svg" alt="Flights" class="svg auto-margin" title="Flights" /><span class="menu-name">Flights</span></a></li>
+          <li class="flex-item"><a href="#"><img src="icons/car.svg" alt="Cars" class="svg auto-margin" title="Cars"/><span class="menu-name">Cars</span></a></li>
+          <li class="flex-item"><a href="#"><img src="icons/deals.svg" alt="Deals" class="svg auto-margin" title="Deals" /><span class="menu-name">Deals</span></a></li>
+          <li class="flex-item"><a href="#"><img src="icons/vacation.svg" alt="Vacations" class="svg auto-margin" title="Vacations"/><span class="menu-name">Vacations</span></a></li>
         </ul>
       </nav>
     </header>
@@ -42,21 +41,20 @@
        <div class="search-bar margin-auto">         			
         <div class="grid-search">
           <h2 class="htl">Hotels</h2>                        
-          <label for="city" class="lblgng">Going to</label>
+          <label class="lblgng">Going to</label>
           <input class="pin-map-icon fnct rounded-borders" type="search" placeholder="Find a city..." name="city" />              
-            <label for="check-in" class="ckin">Check-in</label>
-            <input class="dtin rounded-borders calendar-icon" type="date" name="check-in" placeholder="" />
-            <label for="check-out" class="ckou">Check-out</label>            
+            <label class="ckin">Check-in</label>
+            <input class="dtin rounded-borders calendar-icon" type="date" name="check-in" />
+            <label class="ckou">Check-out</label>            
             <input class="dtou rounded-borders calendar-icon" type="date" name="check-out" />      
-            <label for="rooms" class="lbrm">Rooms</label>
+            <label class="lbrm">Rooms</label>
             <input class="nrmm rounded-borders bed-icon" type="number" name="rooms" placeholder= "Max to 5" min="1" max="5"/>
             <button class="button btn1 mag-icon" type="button"></button>
          </div>
         </div>
       </article>
-      <section class="auto-margin">
-        <!-- Main Content-->
-        <section>
+     
+        <section class="auto-margin"> 
           <!-- Section Offers-->
           <h2>Today's Top Deals...</h2>
           <div class="grid-container boxes">            
@@ -65,9 +63,8 @@
             <div class="grid-item box"><a href="#"><img class="flex-img" src="img/amsterdam.jpg" alt="Amsterdam 5 nights C$350"></a></div>
             <div class="grid-item box"><a href="#"><img class="flex-img" src="img/cancun.jpg" alt="Cancun All Inclusive 20% OFF"></a></div>
           </div>
-        </section>
-        <section>
-          <section class="section"> <!-- Section Accomodations-->					
+        </section>        
+          <section class="section auto-margin"> <!-- Section Accomodations-->					
           <h2><strong>Find the best accomodations</strong> for your trip...</h2>
           <div class="grid-container boxes">
             <div class="grid-item box"> 
@@ -108,7 +105,7 @@
             </div>
           </div>
           </section>
-				<section class="section"> <!-- Section Cars-->
+				<section class="section auto-margin"> <!-- Section Cars-->
           <h2><strong>Rent cars and vans</strong> for your trip...</h2>
           <div class="grid-container boxes">
             <div class="grid-item box"> 
@@ -148,8 +145,8 @@
               </a>
             </div>
           </div>
-        </section class="section">
-        <section> <!-- Section Trips-->
+        </section>
+        <section class="auto-margin"> <!-- Section Trips-->
           <h2><strong>We have the best packages</strong> for your trip...</h2>
           <div class="grid-container boxes">
             <div class="grid-item box"> 
@@ -189,13 +186,11 @@
               </a>
             </div>
           </div>
-				</section>
-				</section>
-      
+        </section>      
 		</main>
 		<footer class="page-footer" >
         <ul class="flex-nav-menu footer icons">
-          <li><a href="https://www.facebook.com/humbercollege"><img class="links-footer" src="icons/facebook (1).svg" alt="Facebook page link"></a></li>
+          <li><a href="https://www.facebook.com/humbercollege"><img class="links-footer" src="icons/facebook.svg" alt="Facebook page link"></a></li>
           <li><a href="https://www.instagram.com/humbercollege"><img class="links-footer" src="icons/instagram.svg" alt="Instagram page link"></a></li>
           <li><a href="https://www.twitter.com/humbercollege"><img class="links-footer" src="icons/twitter.svg" alt="Twitter page link"></a></li>
           <li><a href="https://www.youtube.com/humbercollege"><img class="links-footer" src="icons/youtube.svg" alt="Youtube page link"></a></li>

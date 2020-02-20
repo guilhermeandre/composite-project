@@ -81,7 +81,6 @@ article {
   text-decoration: none;
   display: inline-block;
   font-size: 1em;
-  font-style: bold;
   border-radius: 0.5em;
 
 }
@@ -382,13 +381,13 @@ div.flex-container {
 }
 
 .flex-nav-menu .flex-item {
-  min-width: 5em; 
-  padding-top: 0.3m;
+  min-width: 5em;
   transition: background-color 0.3s;
   margin-left: auto;
   margin-right: auto;
+  margin: auto;
   border-radius: 0.9em;
-
+  padding: 0.3em 0.5em 0.5em 0.5em;
 }
 
 .flex-nav-menu .flex-item:hover {
