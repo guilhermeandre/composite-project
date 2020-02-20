@@ -101,16 +101,15 @@ article {
   color: var(--col-on-accent-1);
   gap: 0.25em;  
   width: 100%;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(7, minmax(1.5em, auto));
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(6, minmax(1.5em, auto));
   grid-template-areas: 
-  "htl htl"
-  "lblgng lblgng"
-  "fnct fnct"
-  "ckin ckou" 
-  "dtin dtou"
-  "lbrm ."
-  "nrmm btn1";
+  "htl htl htl"
+  "lblgng lblgng lblgng"
+  "fnct fnct fnct"
+  "ckin ckou lbrm" 
+  "dtin dtou nrmm"  
+  "btn1 btn1 btn1";
 }
 
 .lblgng { grid-area: lblgng; }
@@ -328,7 +327,7 @@ div.flex-container {
   background-image: url('../icons/magnifying-glass.svg');
   background-size: 1em;
   background-repeat: no-repeat;
-  background-position: 4em center;
+  background-position: 8.5em center;
   /* padding-left: 5em;
   padding-right: 2em; */
 }
