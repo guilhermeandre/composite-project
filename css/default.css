@@ -26,7 +26,8 @@ place (vertical and horizontal)
   --font-size: 1em;
   --font-bigger: 1.5em;
   --gdr-bg-old: rgb(35, 115, 60);
-  --gdr-bg-active: linear-gradient(180deg,rgba(35, 115, 60, 0.9416141456582633) 0%,rgba(149, 186, 94, 1) 100%  );
+  --gdr-bg-active: linear-gradient(180deg, rgba(35,115,60,1) 20%, rgba(43,120,62,1) 47%, rgba(129,174,88,1) 90%, rgba(149,186,94,1) 100%);
+  /* --gdr-bg-active: linear-gradient(180deg,rgba(35, 115, 60, 0.9416141456582633) 0%,rgba(149, 186, 94, 1) 100%  ); */
   --gdr-bg2-old: rgb(110, 191, 241);
   --gdr-bg2-active: linear-gradient(
     90deg,
@@ -222,7 +223,7 @@ article {
 }
 
 .box-footer {
-  background-color: var(--col-accent-1);
+  background-color: var(--gdr-bg-old);
   text-align: center;
   color: var(--col-on-accent-1);
 }
