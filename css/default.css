@@ -124,29 +124,6 @@ article {
 .btn1 { grid-area: btn1; }
 .nrmm { grid-area: nrmm; }
 
-/* .grid-search {
-  display: grid;
-  color: var(--col-on-accent-1);
-  gap: 0.25em;  
-  width: 100%;
-  align-self: baseline;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: repeat(4, minmax(1.5em, auto)); 
-  grid-template-areas: 
-  "hotl hotl . . "
-  "fnct fnct fnct fnct"
-  "dtin . dtou ."
-  "nrmm . btn1 btn1";
-} */
-/* 
-.hotl { grid-area: hotl;}
-.fnct { grid-area: fnct; }
-.dtin { grid-area: dtin; }
-.dtou { grid-area: dtou; }
-.btn1 { grid-area: btn1; }
-.nrmm { grid-area: nrmm; } */
-
-
 
 .logo {
   width: 7.5em;
