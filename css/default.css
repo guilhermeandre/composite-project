@@ -445,6 +445,10 @@ h2{
   margin-right: auto;
 }
 
+.mag-icon{
+  background-position: 15em center;
+}
+
 
 @media screen and (min-width: 80em) {
   .grid-item.box:nth-child(n+4){
