@@ -14,4 +14,5 @@
 
 <a href="https://i.imgur.com/N0SV0Kn.png"><img src="https://i.imgur.com/N0SV0Kn.png" title="Low fidelity wireframes." /></a>
 
+<a href="https://i.imgur.com/prGSIvc.png"><img src="https://i.imgur.com/prGSIvc.png" title="Low fidelity wireframes." /></a>
 
