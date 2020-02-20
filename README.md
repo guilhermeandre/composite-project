@@ -4,4 +4,4 @@
 
 ### LowFidelity wireframes: desktop and mobile version" 
 
-<a href="https://imgur.com/zRKHeau">
+<a href="https://i.imgur.com/N0SV0Kn.png"><img src="https://i.imgur.com/N0SV0Kn.png" title="Low fidelity wireframes." /></a>
