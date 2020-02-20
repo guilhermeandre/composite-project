@@ -16,3 +16,7 @@
 
 <a href="https://i.imgur.com/prGSIvc.png"><img src="https://i.imgur.com/prGSIvc.png" title="Low fidelity wireframes." /></a>
 
+### HTML and CSS development: 
+#### As suggested, I started developing the HTML file only after deciding my elements and their attributes. After adding all the elements to the HTML file I started styling the page itself. 
+## CSS: Mobile first 
+#### I started developing the mobile (small screen) version with responsive elements resizing. 
