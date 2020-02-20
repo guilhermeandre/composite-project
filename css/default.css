@@ -111,13 +111,17 @@ article {
   "btn1 btn1 btn1";
 }
 
-.lblgng { grid-area: lblgng; }
+.lblgng { grid-area: lblgng;
+  justify-self: start;}
 .fnct { grid-area: fnct; }
-.ckin { grid-area: ckin; }
-.ckou { grid-area: ckou; }
+.ckin { grid-area: ckin; 
+  justify-self: start}
+.ckou { grid-area: ckou;
+  justify-self: start; }
 .dtin { grid-area: dtin; }
 .dtou { grid-area: dtou; }
-.lbrm { grid-area: lbrm; }
+.lbrm { grid-area: lbrm;
+  justify-self: start; }
 .btn1 { grid-area: btn1; }
 .nrmm { grid-area: nrmm; }
 
