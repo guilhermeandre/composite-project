@@ -149,6 +149,7 @@ article {
 .grid-container {
   display: grid;
   grid-template-columns: auto;
+
   border-style: none;
   vertical-align: baseline;
   margin: 0 auto;
@@ -156,9 +157,6 @@ article {
   grid-gap: 0rem;
 }
 
-.deals.grid-container {
-  grid-template-columns: 1fr 1fr;
-}
 
 .boxes.grid-container {
   grid-template-columns: 1fr 1fr;
@@ -423,7 +421,6 @@ div.flex-container {
   text-align: center;
 }
 
-
 .logo {
   margin-left: 1rem;
   margin-top: 0.5rem;
@@ -439,16 +436,10 @@ h2{
 }
 
 
-
 @media screen and (min-width: 80em) {
   .grid-item.box:nth-child(n+4){
     display: block;
 }
-
-  .grid-container {
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1em;
-  }
   .flex-nav-menu {
     color: var(--col-on-bg);
     text-align: center;
@@ -479,7 +470,7 @@ h2{
     "lblgng lblgng ckin ckou lbrm . "
     "fnct fnct dtin dtou nrmm btn1 "
   }
-
+ 
 }
 
 }
