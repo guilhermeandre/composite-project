@@ -213,7 +213,7 @@ article {
   font-size: 1em;
   background-color: white;
   margin: 0.5em;
-  padding: 0.125em;
+  /* padding: 0.125em; */
   max-width: 15em;
   box-shadow: 2px 5px 15px -5px rgba(0,0,0,0.51);
 }
@@ -260,25 +260,28 @@ div.flex-container {
 
 .page-footer {
     /* height: 5.5em; */
-    background-color: var(--col-accent-3);
+    /* background-color: var(--col-accent-3); */
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    border-top: solid #444 0.001em ;
+    width: 90%; 
+    padding-bottom: 1em;
     
 }
 .links-footer { 
- max-width: 2em;
+ max-width: 1.5em;
 }
 
 .flex-nav-menu.footer {
-    width: 300px;
+    width: 17em;
     padding: 0.25em;
 }
 
 .flex-nav-menu.footer.icons {
-  width: 200px;
-  padding: 1em;
+  width: 10em;
+  padding: 1em; 
 }
 
 .menu-name {
@@ -484,7 +487,12 @@ h2{
     "lblgng lblgng ckin ckou lbrm . "
     "fnct fnct dtin dtou nrmm btn1 "
   }
- 
+
+  .mag-icon{
+    background-position: 4em center;
+  }
+  
+
 }
 
 }

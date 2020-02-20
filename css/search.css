@@ -1,0 +1,36 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--col-accent-c);
+  /* border-style: solid; */
+  padding-bottom: 2em;
+  margin-bottom: 2em; 
+}
+
+.flex-img {
+  min-width: 350px;
+}
+
+@media screen and (min-width: 40em) {
+
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--col-accent-c);
+  /* border-style: solid; */
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+  flex-grow: 1;
+  align-content: space-between;
+
+}
+
+.flex-box {
+  flex-grow: 1;
+  margin: 1em;
+  align-items: center;
+}
+
+}
