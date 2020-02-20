@@ -254,15 +254,13 @@ label {
 
 [type="text"],
 [type="date"],
-[type="number"],
+select,
 button {
   height: 3em;  
   margin-bottom: 0.25em;
   background-color: rgba(255, 255, 255, 0.2);
 
 }
-
-
 
 div.flex-container {
   background-color: white;
