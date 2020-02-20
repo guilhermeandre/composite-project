@@ -289,7 +289,7 @@ div.flex-container {
 
 .menu-name-top {
   opacity: 0;
-  /* transition: opacity 0.3s; */
+  transition: opacity 0.3s; 
 }
 
 .grid-item.box:nth-child(n+3){
@@ -392,13 +392,16 @@ div.flex-container {
   margin-right: auto;    
 }
 
-.flex-item:hover .svg {
+.flex-item:hover .svg, .flex-item:hover .svg-top  {
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(300deg) brightness(101%) contrast(105%);
 }
 
-.flex-item:hover .menu-name{
+.flex-item:hover .menu-name, .flex-item:hover .menu-name-top{
   color: white;
+}
 
+.links-footer:hover {
+  filter: invert(40%) sepia(95%) saturate(4917%) hue-rotate(76deg) brightness(92%) contrast(91%);
 }
 
 .flex-ul {
@@ -476,9 +479,6 @@ h2{
     "lblgng lblgng ckin ckou lbrm . "
     "fnct fnct dtin dtou nrmm btn1 "
   }
-
-  
-
 
 }
 
