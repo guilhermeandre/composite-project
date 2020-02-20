@@ -96,7 +96,6 @@ article {
   font-size: var(--font-size);
 }
 
-
 .grid-search {
   display: grid;
   color: var(--col-on-accent-1);
@@ -149,10 +148,8 @@ article {
 .grid-container {
   display: grid;
   grid-template-columns: auto;
-
-  border-style: none;
   vertical-align: baseline;
-  margin: 0 auto;
+  margin: 0 0 1em 0;
   background-color: var(--col-on-accent-1);
   grid-gap: 0rem;
 }
@@ -190,14 +187,13 @@ article {
   
 }
 
-
 .flex-nav-menu {
   display: flex;
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
-  justify-content: space-between;  
-  color: white;
+  justify-content: space-between;    
+  max-width: 25em;
   
 }
 
@@ -218,14 +214,15 @@ article {
 .box.grid-item {
   font-size: 1em;
   background-color: white;
-  margin: 0.625em;
+  margin: 0.5em;
   padding: 0.125em;
   max-width: 15em;
   box-shadow: 2px 5px 15px -5px rgba(0,0,0,0.51);
 }
 
-.box-header {
+.box-header, p {
   margin-top: 0.625em;
+  margin-left: 0.2em;
 }
 
 .box-footer {
@@ -238,6 +235,7 @@ article {
   text-align: right;
   font-weight: bold;
   margin-top: 0.625em;
+  margin-right: 0.2em;
 }
 
 [type="text"],
@@ -322,13 +320,22 @@ div.flex-container {
   padding-left: 2em;
 }
 
+.mag-icon {
+  flex-grow: 1;
+  background-image: url('../icons/magnifying-glass.svg');
+  background-size: 1em;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: auto;
+  padding-right: auto;
+}
+
 .rounded-borders {
   border-radius: 0.5em;
   background-color: white;
   max-height: 2em;
   /* border-top-left-radius: 0.5em; */
 }
-
 
 @media screen and (min-width: 40em) {    /* media-query 40em*/
   .search-bar {
@@ -358,10 +365,11 @@ div.flex-container {
   color: var(--col-on-bg);
   text-align: center;
   min-width: 25em;
+  max-width: 30em;
 }
 
 .background-round-menu {
-  height: 6em;
+  height: 4.5em;
 }
 
 .menu-name-top {
@@ -371,7 +379,7 @@ div.flex-container {
 
 .flex-nav-menu .flex-item {
   min-width: 5em; 
-  padding: 0.625em;
+  padding-top: 0.3m;
   transition: background-color 0.3s;
   margin-left: auto;
   margin-right: auto;
@@ -443,7 +451,7 @@ h2{
   .flex-nav-menu {
     color: var(--col-on-bg);
     text-align: center;
-    max-width: 60em;
+    max-width: 50em;
   }
 
   .boxes.grid-container {
