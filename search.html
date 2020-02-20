@@ -1,88 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TraveloCity | Cheap Hotels, Cars, Flights & Travel Deals</title>
-    <meta name="author" content="Guilherme Andre dos Santos - N01399828" />
-    <meta name="description" content="Wander Wisely With Travelocity's Customer First Guarantee. Book Today & Save!"/>
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/default.css" />
-    <link rel="stylesheet" href="css/search.css" />
-  </head>
-  <body>
-    <header>
-      <div class="flex-header-container">
-        <div>
-          <a href="index.html"><img class="logo" src="img/travelocity-logo.png" alt="TraveloCity Logo"/></a>
-         
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>TraveloCity | Cheap Hotels, Cars, Flights & Travel Deals</title>
+      <meta name="author" content="Guilherme Andre dos Santos - N01399828" />
+      <meta name="description" content="Wander Wisely With Travelocity's Customer First Guarantee. Book Today & Save!"/>
+      <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+      <link rel="stylesheet" href="css/reset.css" />
+      <link rel="stylesheet" href="css/default.css" />
+      <link rel="stylesheet" href="css/search.css" />
+    </head>
+    <body>
+      <header>
+        <div class="flex-header-container">
+          <div>
+            <a href="index.html"><img class="logo" src="img/travelocity-logo.png" alt="TraveloCity Logo"/></a>
+          
+          </div>
+          <nav>
+            <ul class="flex-nav-menu background-round-menu">
+              <li class="flex-item"><a href="#"><img src="icons/support.svg" alt="Contact icon" class="svg-top auto-margin" title="Support" /><span class="menu-name-top">Support</span></a></li>           
+              <li class="flex-item"><a href="#"><img src="icons/user.svg" alt="Login icon" class="svg-top auto-margin" title="Login"/><span class="menu-name-top">Login</span></a></li>
+              <li class="flex-item"><a href="#"><img src="icons/suitcase.svg" alt="My Trips icon" class="svg-top auto-margin" title="My Trips"/><span class="menu-name-top">My Trips</span></a></li>
+            </ul>
+          </nav>
         </div>
         <nav>
-          <ul class="flex-nav-menu background-round-menu">
-            <li class="flex-item"><a href="#"><img src="icons/support.svg" alt="Contact icon" class="svg-top auto-margin" title="Support" /><span class="menu-name-top">Support</span></a></li>           
-            <li class="flex-item"><a href="#"><img src="icons/user.svg" alt="Login icon" class="svg-top auto-margin" title="Login"/><span class="menu-name-top">Login</span></a></li>
-            <li class="flex-item"><a href="#"><img src="icons/suitcase.svg" alt="My Trips icon" class="svg-top auto-margin" title="My Trips"/><span class="menu-name-top">My Trips</span></a></li>
+          <ul class="flex-nav-menu">
+            <li class="flex-item"><a href="#"><img src="icons/hotel.svg" alt="Hotels" class="svg auto-margin" title="Hotels" /><span class="menu-name">Hotels</span></a></li>
+            <li class="flex-item"><a href="#"><img src="icons/airplane.svg" alt="Flights" class="svg auto-margin" title="Flights" /><span class="menu-name">Flights</span></a></li>
+            <li class="flex-item"><a href="#"><img src="icons/car.svg" alt="Cars" class="svg auto-margin" title="Cars"/><span class="menu-name">Cars</span></a></li>
+            <li class="flex-item"><a href="#"><img src="icons/deals.svg" alt="Deals" class="svg auto-margin" title="Deals" /><span class="menu-name">Deals</span></a></li>
+            <li class="flex-item"><a href="search.html"><img src="icons/vacation.svg" alt="Vacations" class="svg auto-margin" title="Vacations"/><span class="menu-name">Vacations</span></a></li>
           </ul>
         </nav>
-      </div>
-      <nav>
-        <ul class="flex-nav-menu">
-          <li class="flex-item"><a href="#"><img src="icons/hotel.svg" alt="Hotels" class="svg auto-margin" title="Hotels" /><span class="menu-name">Hotels</span></a></li>
-          <li class="flex-item"><a href="#"><img src="icons/airplane.svg" alt="Flights" class="svg auto-margin" title="Flights" /><span class="menu-name">Flights</span></a></li>
-          <li class="flex-item"><a href="#"><img src="icons/car.svg" alt="Cars" class="svg auto-margin" title="Cars"/><span class="menu-name">Cars</span></a></li>
-          <li class="flex-item"><a href="#"><img src="icons/deals.svg" alt="Deals" class="svg auto-margin" title="Deals" /><span class="menu-name">Deals</span></a></li>
-          <li class="flex-item"><a href="search.html"><img src="icons/vacation.svg" alt="Vacations" class="svg auto-margin" title="Vacations"/><span class="menu-name">Vacations</span></a></li>
+      </header>
+      <main>
+        <article>
+        <div class="search-bar margin-auto">         			
+          <div class="grid-search">
+            <h2 class="htl">Hotels</h2>                        
+            <label class="lblgng">Going to</label>
+            <input class="pin-map-icon fnct rounded-borders" type="search" placeholder="Find a city..." name="city" />              
+              <label class="ckin">Check-in</label>
+              <input class="dtin rounded-borders calendar-icon" type="date" name="check-in" />
+              <label class="ckou">Check-out</label>            
+              <input class="dtou rounded-borders calendar-icon" type="date" name="check-out" />      
+              <label class="lbrm">Rooms</label>
+              <input class="nrmm rounded-borders bed-icon" type="number" name="rooms" placeholder= "Max to 5" min="1" max="5"/>
+              <button class="button btn1 mag-icon" type="button"></button>
+          </div>
+          </div>
+        </article>  
+      <section class="section auto-margin"> <!-- Section Results-->					
+        <h2>Your search results for: <strong>New York</strong></h2>
+        <div class="box-result">       
+            <div class="box-result-item img">  
+            <a href="#">                    
+            <img class ="flex-img" src="img/hotel-1-nyc.jpg" alt="Hotel room in NYC"> 
+            </a>
+            </div>            
+            <div class="box-result-item">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, eum. Laudantium reiciendis ex quas iure iusto aut maiores consequatur adipisci! Similique officiis ipsa est ex eos aliquam aut velit voluptas.</p>
+              <p>Moooorem ipsum, how do you like that, huh? This element is now a bit taller than its siblings.</p>     
+              <a href="#" class="btn-offer btn">Read more</a>
+            </div>          
+          </div>
+        </section>
+    </main>  
+      <footer class="page-footer" >
+        <ul class="flex-nav-menu footer icons">
+          <li><a href="https://www.facebook.com/humbercollege"><img class="links-footer" src="icons/facebook.svg" alt="Facebook page link"></a></li>
+          <li><a href="https://www.instagram.com/humbercollege"><img class="links-footer" src="icons/instagram.svg" alt="Instagram page link"></a></li>
+          <li><a href="https://www.twitter.com/humbercollege"><img class="links-footer" src="icons/twitter.svg" alt="Twitter page link"></a></li>
+          <li><a href="https://www.youtube.com/humbercollege"><img class="links-footer" src="icons/youtube.svg" alt="Youtube page link"></a></li>
         </ul>
-      </nav>
-		</header>
-		<main>
-      <article>
-       <div class="search-bar margin-auto">         			
-        <div class="grid-search">
-          <h2 class="htl">Hotels</h2>                        
-          <label class="lblgng">Going to</label>
-          <input class="pin-map-icon fnct rounded-borders" type="search" placeholder="Find a city..." name="city" />              
-            <label class="ckin">Check-in</label>
-            <input class="dtin rounded-borders calendar-icon" type="date" name="check-in" />
-            <label class="ckou">Check-out</label>            
-            <input class="dtou rounded-borders calendar-icon" type="date" name="check-out" />      
-            <label class="lbrm">Rooms</label>
-            <input class="nrmm rounded-borders bed-icon" type="number" name="rooms" placeholder= "Max to 5" min="1" max="5"/>
-            <button class="button btn1 mag-icon" type="button"></button>
-         </div>
-        </div>
-      </article>  
-    <section class="section auto-margin"> <!-- Section Results-->					
-      <h2>Your search results for: <strong>New York</strong></h2>
-      <article class="box-result">       
-          <div class="box-result-item img">  
-          <a href="#">                    
-          <img class ="flex-img" src="img/hotel-1-nyc.jpg" alt="Hotel room in NYC"> 
-          </a>
-          </div>            
-          <div class="box-result-item">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, eum. Laudantium reiciendis ex quas iure iusto aut maiores consequatur adipisci! Similique officiis ipsa est ex eos aliquam aut velit voluptas.</p>
-            <p>Moooorem ipsum, how do you like that, huh? This element is now a bit taller than its siblings.</p>     
-            <a href="#" class="btn-offer btn">Read more</a>
-          </div>          
-       </article>
-       
-  </main>  
-    <footer class="page-footer" >
-      <ul class="flex-nav-menu footer icons">
-        <li><a href="https://www.facebook.com/humbercollege"><img class="links-footer" src="icons/facebook.svg" alt="Facebook page link"></a></li>
-        <li><a href="https://www.instagram.com/humbercollege"><img class="links-footer" src="icons/instagram.svg" alt="Instagram page link"></a></li>
-        <li><a href="https://www.twitter.com/humbercollege"><img class="links-footer" src="icons/twitter.svg" alt="Twitter page link"></a></li>
-        <li><a href="https://www.youtube.com/humbercollege"><img class="links-footer" src="icons/youtube.svg" alt="Youtube page link"></a></li>
-      </ul>
-      <ul class="flex-nav-menu footer">
-        <li><a href="index.html">Site Map</a></li>
-        <li><a href="index.html">About Us</a></li>
-        <li><a href="index.html">Terms of Use</a></li>
-        <li><a href="index.html">Support</a></li>
-      </ul> 
-       <small>&copy;</small>TraveloCity 2020
-  </footer>
-</body>
-</html>
+        <ul class="flex-nav-menu footer">
+          <li><a href="index.html">Site Map</a></li>
+          <li><a href="index.html">About Us</a></li>
+          <li><a href="index.html">Terms of Use</a></li>
+          <li><a href="index.html">Support</a></li>
+        </ul> 
+        <small>&copy;</small>TraveloCity 2020
+    </footer>
+  </body>
+  </html>
