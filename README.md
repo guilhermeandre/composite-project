@@ -4,7 +4,7 @@
 
 ## Goals:
 ### Redesign the branding 
-### Make the website to become more accesible. 
+### Make the website to become more accessible. 
 ### Improve navigation. 
 
 ## Process:
