@@ -4,7 +4,8 @@
 
 ## Goals:
 ### Redesign the branding 
-### Make the website more accesible. 
+### Make the website to become more accesible. 
+### Improve navigation. 
 
 ## Process:
 #### LowFidelity wireframes: desktop and mobile version 
