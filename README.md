@@ -3,7 +3,7 @@
 ## This is a website redesign and re-branding project for the Web Design and Development course. 
 
 ## Goals:
-### Redesign the branding 
+### Redesign the branding.
 ### Make the website to become more accessible. 
 ### Improve navigation. 
 
