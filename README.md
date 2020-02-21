@@ -6,6 +6,7 @@
 ### Redesign the branding 
 ### Make the website more accesible. 
 
+## Process:
 #### LowFidelity wireframes: desktop and mobile version 
 ##### I started thinking about the project and designed the low-fidelity wireframes to place the items and display them as I wanted.
 <a href="https://i.imgur.com/zRKHeau.png"><img src="https://i.imgur.com/zRKHeau.png" title="Low fidelity wireframes." /></a>
