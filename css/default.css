@@ -73,6 +73,8 @@ li {
 section h2  {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 h4, h5, h6 {
@@ -307,7 +309,12 @@ button {
   height: 3em;
   margin-bottom: 0.25em;
   background-color: rgba(255, 255, 255, 0.2);
+  font-size: 0.8em;
 }
+/* 
+[type="date"], select {
+  font-size: 0.8em;
+} */
 
 div.flex-container {
   background-color: white;
