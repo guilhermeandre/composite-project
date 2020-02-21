@@ -13,12 +13,12 @@
 ### Desktop
 <a href="https://i.imgur.com/zRKHeau.png"><img src="https://i.imgur.com/zRKHeau.png" title="Low fidelity wireframe desktop." /></a>
 ### Mobile
-<a href="https://i.imgur.com/iiCQFHn.png"><img src="https://i.imgur.com/iiCQFHn.png" title="Low fidelity wireframe mobile." /></a>
+<a href="https://i.imgur.com/cGjVVhf.png"><img src="https://i.imgur.com/cGjVVhf.png" title="Low fidelity wireframe mobile." /></a>
 
 #### High-fidelity wireframes: desktop and mobile version 
 ##### Then I chose the colours and the visual elements. 
 ### Desktop 
-<a href="https://i.imgur.com/N0SV0Kn.png"><img src="https://i.imgur.com/N0SV0Kn.png" title="High fidelity wireframe desktop" /></a>
+<a href="https://i.imgur.com/zU4kTyL.png"><img src="https://i.imgur.com/zU4kTyL.png" title="High fidelity wireframe desktop" /></a>
 ### Mobile
 <a href="https://i.imgur.com/prGSIvc.png"><img src="https://i.imgur.com/prGSIvc.png" title="High fidelity wireframe mobile" /></a>
 
@@ -31,6 +31,6 @@
 
 ### Search Results Page: 
 ### Desktop
-<a href="https://i.imgur.com/qiQU85g.png"><img src="https://i.imgur.com/qiQU85g.png" title="Search result page desktop"></a>
+<a href="https://i.imgur.com/dmDdCUh.png"><img src="https://i.imgur.com/dmDdCUh.png" title="Search result page desktop"></a>
 ### Mobile
-<a href="https://i.imgur.com/6JgO8xh.png"><img src="https://i.imgur.com/6JgO8xh.png" title="Search result page desktop"></a>
+<a href="https://i.imgur.com/gafcjQU.png"><img src="https://i.imgur.com/gafcjQU.png" title="Search result page desktop"></a>
