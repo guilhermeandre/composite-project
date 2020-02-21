@@ -13,7 +13,7 @@
 ### Desktop
 <a href="https://i.imgur.com/zRKHeau.png"><img src="https://i.imgur.com/zRKHeau.png" title="Low fidelity wireframe desktop." /></a>
 ### Mobile
-<a href="https://i.imgur.com/iiCQFHn.png"><img src="https://i.imgur.com/cGjVVhf.png" title="Low fidelity wireframe mobile." /></a>
+<a href="https://i.imgur.com/iiCQFHn.png"><img src="https://i.imgur.com/iiCQFHn.png" title="Low fidelity wireframe mobile." /></a>
 
 #### High-fidelity wireframes: desktop and mobile version 
 ##### Then I chose the colours and the visual elements. 
