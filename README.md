@@ -26,5 +26,5 @@
 #### CSS: Mobile first 
 ##### I started developing the mobile (small screen) version with responsive elements resizing. After adjusting correctly this enviroment (320px), I started making arrangements for the 640px & 1280px versions. Elements such as flex became grids, with consistent aligned contents to be displayed better. 
 
-#### This redesign was conceived to make the navigation more intuitive and simple, with clean menus and boxes, the purpose is to provide a delighful experience while searching for a hotel, car or trip destination. 
+#### This redesign was conceived to make the navigation more intuitive and simple, with clean menus and boxes, the purpose is to provide a delightful experience while searching for a hotel, car or trip destination. 
 
