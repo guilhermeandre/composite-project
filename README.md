@@ -8,6 +8,11 @@
 ### Improve navigation. 
 
 ## Process:
+
+### Moodboard: 
+
+<a href="https://i.imgur.com/dVooxst.png"><img src="https://i.imgur.com/dVooxst.png" tittle="Moodboard"/></a>
+
 #### Low-fidelity wireframes: desktop and mobile version 
 ##### I started thinking about the project and designed the low-fidelity wireframes to place the items and display them as I wanted.
 ### Desktop
